@@ -6,7 +6,7 @@ function addToBlacklist() {
     if (inputText.trim() !== "") {
 
         blacklistArray.push(inputText);
-        alert("تمت إضافة " + inputText + "  إلى البلاك ليست! برجاء قم بالارسال الي صالح الان");
+        alert("تمت إضافة " + inputText + "  إلى البلاك ليست! برجاء قم بلضغط علي تأكيد الان");
     } else {
         alert("الرجاء إدخال اسم قبل الضغط على الزر.");
     }
